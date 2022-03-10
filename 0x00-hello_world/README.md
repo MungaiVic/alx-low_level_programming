@@ -15,8 +15,12 @@
 
 - This script generates assembly code of a C code
 
-### Name
+### 3. Name
 
 - This script compiles a C file and generates an executable named `cisfun`
+
+### 4. Hello, puts
+
+- This C program prints some text followed by a new line
 
 
