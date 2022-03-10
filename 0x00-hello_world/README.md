@@ -15,4 +15,8 @@
 
 - This script generates assembly code of a C code
 
+### Name
+
+- This script compiles a C file and generates an executable named `cisfun`
+
 
