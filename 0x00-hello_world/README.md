@@ -34,6 +34,11 @@
 
 ## Advanced Tasks
 
+### 7. Intel
 - This script generates the assembly code (Intel Syntax) of a C code and daves it in an output file
+
+### 8. UNIX is basically a simple operating system, but you have to be a genius to understand the simplicity
+
+- This C program prints some specific text followed by a new line to the standard error.
 
 
