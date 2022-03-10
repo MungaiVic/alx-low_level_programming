@@ -23,4 +23,9 @@
 
 - This C program prints some text followed by a new line
 
+### 5. Hello, printf
+
+- This C program prints some text followed by a new line.
+- One can use `printf` and not `puts`
+
 
