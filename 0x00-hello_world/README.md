@@ -28,4 +28,8 @@
 - This C program prints some text followed by a new line.
 - One can use `printf` and not `puts`
 
+### 6. Size is not grandeur, and territory does not make a nation
+
+- This C program prints the size of various types on the computer it is compiled and run on.
+
 
