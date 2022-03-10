@@ -7,3 +7,8 @@
 - This script runs a C file through the preprocessor and saves the result into another file called `c`
 - The C file name will be saved in the variable `$CFILE`
 
+### 1. Compiler
+
+- This script compiles a C file but doesn't link.
+
+
