@@ -11,4 +11,8 @@
 
 - This script compiles a C file but doesn't link.
 
+### 2. Assembler
+
+- This script generates assembly code of a C code
+
 
