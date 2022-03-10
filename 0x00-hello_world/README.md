@@ -32,4 +32,8 @@
 
 - This C program prints the size of various types on the computer it is compiled and run on.
 
+## Advanced Tasks
+
+- This script generates the assembly code (Intel Syntax) of a C code and daves it in an output file
+
 
