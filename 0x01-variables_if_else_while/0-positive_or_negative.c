@@ -1,8 +1,12 @@
 #include <stdlib.h>
 #include <time.h>
+#include <stdio.h>
 /* more headers goes there */
 
-/* betty style doc for function main goes there */
+/**
+   * main - Assigns random number then prints +ve or -ve
+   * Return: 0 (Successful)
+ */
 int main(void)
 {
 	int n;
@@ -10,5 +14,11 @@ int main(void)
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	/* your code goes there */
+	if (n < 0)
+		printf("%d is negative\n", n);
+	else if (n == 0)
+		printf("%d is zeron\n", n);
+	else
+		printf("%d is positive\n", n);
 	return (0);
 }
