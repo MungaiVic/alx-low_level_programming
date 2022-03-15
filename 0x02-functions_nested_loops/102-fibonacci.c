@@ -10,7 +10,7 @@ int main(void)
 	unsigned long int first = 1, sec = 2;
 	int i;
 
-	printf("%lu",first);
+	printf("%lu", first);
 	for (i = 1; i < 50; i++)
 	{
 		printf(", %lu", sec);
