@@ -11,7 +11,7 @@ int main(void)
 	int i;
 
 	printf("%lu",first);
-	for (i = 1; i <= 50; i++)
+	for (i = 1; i < 50; i++)
 	{
 		printf(", %lu", sec);
 		sec += first;
