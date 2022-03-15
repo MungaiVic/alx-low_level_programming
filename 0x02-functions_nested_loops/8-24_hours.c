@@ -11,7 +11,7 @@ void jack_bauer(void)
 	int hh = 0;
 	int mm;
 
-	while(hh < 24)
+	while (hh < 24)
 	{
 		mm = 0;
 		while (mm < 60)
