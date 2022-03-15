@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include "_putchar.c"
 /**
   * print_last_digit - prints the last digit of a number
   * @lnum: parameter
