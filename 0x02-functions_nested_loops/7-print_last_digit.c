@@ -18,7 +18,7 @@ int print_last_digit(int lnum)
 	if (i < 0)
 		i = -i;
 
-	_putchar(i);
+	_putchar(i + '0');
 
 	return (i);
 }
