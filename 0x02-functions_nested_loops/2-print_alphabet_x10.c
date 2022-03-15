@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * main - prints out the alphabet 10 times
+ * print_alphabet_x10 - prints out the alphabet 10 times
  * Return: Always 0 (Successful)
 */
 
-int main(void)
+void print_alphabet_x10(void)
 {
 	int i;
 	int j;
