@@ -8,7 +8,7 @@
 
 void jack_bauer(void)
 {
-	int hh;
+	int hh = 0;
 	int mm;
 
 	while(hh < 24)
