@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_numbers - check the code for Holberton School students.
+ * print_numbers - prints numbers.
  * Return: void.
  */
 
