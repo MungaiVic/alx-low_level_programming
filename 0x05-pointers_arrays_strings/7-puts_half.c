@@ -10,22 +10,27 @@
 
 void puts_half(char *str)
 {
-	int i;
-	int halflen = (strlen(str)) / 2;
-	int flen = strlen(str);
+	int len, n, i;
 
-	if (strlen(str) % 2 != 0)
+	len = 0;
+
+	while (str[len] != '\0')
 	{
-		for (i = halflen; i <= (flen - 1) / 2; i++)
+		len++;
+	}
+
+	if (len % 2 == 0)
+	{
+		for (i = len / 2; str[i] != '\0'; i++)
 		{
-		printf("%c", str[i]);
+			_putchar(str[i]);
 		}
-	} else if (strlen(str) % 2 == 0)
+	} else if (len % 2)
 	{
-	for (i = halflen; i < flen; i++)
-	{
-		printf("%c", str[i]);
+		for (n = (len - 1) / 2; n < len - 1; n++)
+		{
+			_putchar(str[n + 1]);
+		}
 	}
-	}
-	printf("\n");
+	_putchar('\n');
 }
