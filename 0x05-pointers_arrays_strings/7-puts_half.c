@@ -20,9 +20,11 @@ void puts_half(char *str)
 		{
 		printf("%c", str[i]);
 		}
-	}
+	} else
+	{
 	for (i = halflen; i < flen; i++)
 	{
 		printf("%c", str[i]);
+	}
 	}
 }
