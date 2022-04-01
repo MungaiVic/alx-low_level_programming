@@ -3,10 +3,12 @@
 
 /**
   * main - prints the program name
-  * return: EXIT_SUCCESS
+  * @argc: number of args passes
+  * @argv: pointer to array
+  * Return: EXIT_SUCCESS
   */
 
-int main (int argc, char *argv[])
+int main(int argc, char *argv[])
 {
 	printf("%s\n", argv[argc - 1]);
 
